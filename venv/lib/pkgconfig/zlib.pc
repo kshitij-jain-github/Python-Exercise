@@ -1,0 +1,13 @@
+prefix=/Users/kshitijjain/Data Science/Introduction-main/venv
+exec_prefix=/Users/kshitijjain/Data Science/Introduction-main/venv
+libdir=/Users/kshitijjain/Data Science/Introduction-main/venv/lib
+sharedlibdir=/Users/kshitijjain/Data Science/Introduction-main/venv/lib
+includedir=/Users/kshitijjain/Data Science/Introduction-main/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
